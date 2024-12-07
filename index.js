@@ -13,7 +13,7 @@ const PORT = 5000;
 const corsOptions = {
     origin: (origin, callback) => {
         const allowedOrigins = [
-            'https://lms-frontend-coral.vercel.app',
+            'https://bashirblogs.vercel.app',
             'http://localhost:3000'
         ]; // List of allowed origins
         if (!origin || allowedOrigins.includes(origin)) {
